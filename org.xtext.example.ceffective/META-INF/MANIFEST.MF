@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.example.ceffective
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.example.ceffective; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: Ceffective,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.xtext.example.ceffective.formatting,
+ org.xtext.example.ceffective.parser.antlr.internal,
+ org.xtext.example.ceffective.parser.antlr,
+ org.xtext.example.ceffective.validation,
+ org.xtext.example.ceffective.generator,
+ org.xtext.example.ceffective,
+ org.xtext.example.ceffective.scoping,
+ org.xtext.example.ceffective.serializer,
+ org.xtext.example.ceffective.services
+Import-Package: org.apache.log4j

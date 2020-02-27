@@ -1,0 +1,76 @@
+/**
+ */
+package ceffective;
+
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Autenticacion Firma</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link ceffective.AutenticacionFirma#getNombre <em>Nombre</em>}</li>
+ *   <li>{@link ceffective.AutenticacionFirma#getCertificado <em>Certificado</em>}</li>
+ * </ul>
+ *
+ * @see ceffective.CeffectivePackage#getAutenticacionFirma()
+ * @model
+ * @generated
+ */
+public interface AutenticacionFirma extends AutenticacionUsuario {
+	/**
+	 * Returns the value of the '<em><b>Nombre</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Nombre</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Nombre</em>' attribute.
+	 * @see #setNombre(String)
+	 * @see ceffective.CeffectivePackage#getAutenticacionFirma_Nombre()
+	 * @model
+	 * @generated
+	 */
+	String getNombre();
+
+	/**
+	 * Sets the value of the '{@link ceffective.AutenticacionFirma#getNombre <em>Nombre</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Nombre</em>' attribute.
+	 * @see #getNombre()
+	 * @generated
+	 */
+	void setNombre(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Certificado</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Certificado</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Certificado</em>' attribute.
+	 * @see #setCertificado(String)
+	 * @see ceffective.CeffectivePackage#getAutenticacionFirma_Certificado()
+	 * @model
+	 * @generated
+	 */
+	String getCertificado();
+
+	/**
+	 * Sets the value of the '{@link ceffective.AutenticacionFirma#getCertificado <em>Certificado</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Certificado</em>' attribute.
+	 * @see #getCertificado()
+	 * @generated
+	 */
+	void setCertificado(String value);
+
+} // AutenticacionFirma
